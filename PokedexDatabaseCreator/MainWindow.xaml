@@ -1,0 +1,31 @@
+﻿<Window x:Class="PokedexDatabaseCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokedexDatabaseCreator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+
+        <Button Content="Generation" Click="Generation_Click" />
+        <Button Content="Game" Click="Game_Click" />
+
+        <Separator Margin="5" />
+
+        <Button Content="Type" Click="Type_Click" />
+        <Button Content="Category" Click="Category_Click" />
+        <Button Content="Contest" Click="Contest_Click" />
+
+        <Separator Margin="5" />
+
+        <Button Content="PP" Click="PP_Click" />
+        <Button Content="Power" Click="Power_Click" />
+        <Button Content="Accuracy" Click="Accuracy_Click" />
+
+        <Separator Margin="5" />
+        
+        <Button Content="Moves" />
+
+    </StackPanel>
+</Window>
